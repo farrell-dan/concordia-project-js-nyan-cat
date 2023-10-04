@@ -19,7 +19,7 @@ startTimer = () => {
 startTimer();
 
 updateScore = () => {
-    score +=1000;
+    score +=10;
     scoreDisplay.textContent = `Score: ${score}`;
 }
 
