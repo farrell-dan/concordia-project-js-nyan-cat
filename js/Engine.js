@@ -73,6 +73,7 @@ for (let enemy = 0 ; enemy < this.enemies.length ; enemy++) {
     this.player.x === this.enemies[enemy].x && 
     this.player.y <= this.enemies[enemy].y + ENEMY_HEIGHT
   ){
+    stopMusic();
     return true;
   }
 }
