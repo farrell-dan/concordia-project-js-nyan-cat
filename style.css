@@ -1,0 +1,20 @@
+.board {
+    display: inline;
+    background-color: black;
+    color: yellow;
+    position: absolute;
+    top: 500;
+    z-index: 10000000;
+    width: 375;
+    justify-items: center;
+}
+h1{
+    display: inline;
+    font-size: medium;
+    margin: 25px
+}
+
+.board{
+    display: flex;
+    justify-content: space-evenly;
+}

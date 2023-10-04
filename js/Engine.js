@@ -57,7 +57,7 @@ class Engine {
     // We check if the player is dead. If he is, we alert the user
     // and return from the method (Why is the return statement important?)
     if (this.isPlayerDead()) {
-      window.alert('Game over');
+      window.alert(`Game over! Your Score: ${score}`);
       return;
     }
 
@@ -74,6 +74,7 @@ for (let enemy = 0 ; enemy < this.enemies.length ; enemy++) {
     this.player.y <= this.enemies[enemy].y + ENEMY_HEIGHT
   ){
     stopMusic();
+    stopTimer();
     return true;
   }
 }
